@@ -1,0 +1,171 @@
+div{
+    background-color: blueviolet;
+    display: flex;
+    height: 70px;
+    width: auto;
+    border-color: blueviolet;
+    align-items: center;
+  
+    
+    
+       
+}
+
+.header{
+  margin-left: 100px;
+  margin-right: 0px;
+  align-items: center;
+  justify-content: space-between;
+  
+
+
+}
+
+
+
+.options{
+  height: 35px;
+  width: 75px;
+  display: flex;
+  color: blueviolet;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50px;
+  margin: 15px;
+  text-align: center;
+}
+
+
+
+.flexsearch--wrapper {
+	height: 70px;
+	width: 730px;
+	max-width: 100%;
+	overflow: hidden;
+	background: transparent;
+	margin: 0;
+	position: static;
+    
+}
+	
+.flexsearch--form {
+	overflow: hidden;
+	position: relative;
+}
+	
+.flexsearch--input-wrapper {
+	padding: 0 66px 0 0; /* Right padding for submit button width */
+	overflow: hidden;
+}
+
+.flexsearch--input {
+  width: 950px;
+}
+
+
+.flexsearch {
+  padding: 0 25px 0 200px; /* Padding for other horizontal elements */
+}
+
+.flexsearch--input {
+  -webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+ 	height: 30px;
+  padding: 0 46px 0 10px;
+	border-color: #888;
+  border-radius: 35px; /* (height/2) + border-width */
+  border-style: solid;
+	border-width: 0px;
+  margin-top: 0px;
+  color: #333;
+  font-family: 'Helvetica', sans-serif;
+	font-size: 26px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+    display: flex;
+    
+}
+	
+.flexsearch--submit {
+  position: absolute;
+	right: 0;
+	top: 0;
+	display: flex;
+	width: 60px;
+	height: 60px;
+  padding: 0;
+  border: none;
+  margin-right: 50px; /* border-width */
+  margin-top: 5px;
+	background: transparent;
+  color: #888;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+  display:flex;
+}
+
+.flexsearch--input:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+ 	color: #333; 
+}
+
+.flexsearch--submit:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	color: #888;  
+}
+
+input:-moz-placeholder {
+  color: #888
+}
+
+
+.buttons{
+  background-color: aliceblue;
+  color: blueviolet;
+  border-radius: 10px;
+  border-color: blueviolet;
+  cursor: pointer;
+  height: 35px;
+}
+
+
+#presentacion{
+  background-color: white;
+  align-items: center;
+  margin: 100px;
+  width: auto;
+  height: 500px;
+  border: 0.005px solid ;
+  border-color: slategrey;
+  
+
+
+}
+
+
+#margen{
+  margin : 400px;
+  background-color: white;
+  width: auto;
+  height: auto;
+}
+
+
+#texto_presentacion{
+  color: blueviolet;
+  text-align : center;
+  font-family: 'Helvetica', sans-serif;
+
+}
+
+
